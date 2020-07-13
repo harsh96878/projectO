@@ -1,0 +1,208 @@
+body{
+    margin:0;
+}
+
+/* for the navigation bar*/
+.navbar {
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    padding-top: 15px;
+    top :0;
+}
+.inner-width {
+    
+    margin:auto;
+    margin-left: 79%;
+    margin-right: 10px;
+}
+
+.navbar a{
+    white-space: nowrap;
+    margin-left:10px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* all the links*/
+.navbar a:hover{text-decoration: underline;}
+
+/* blue sign in box*/
+.sign-in {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+}
+/* google apps pic*/
+.google_apps{
+    
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-position: -132px -38px;
+    opacity: .55;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+}
+
+/* main search section*/
+
+section {
+    display: block;
+    text-align: -webkit-center;
+}
+.google_logo{
+    padding-top:148px;
+}
+/* form */
+input {
+    display: inline-block;
+    text-align: start;
+    background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    font-size: medium;
+}
+.search-box{
+    padding-top: 23px;
+}
+.search-bar {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 38px;
+    margin: 0 auto;
+    width: 35%;
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.search-bar:hover{
+    box-shadow: 1px 1px 5px lightgrey;
+}
+
+.submit-btn, .lucky-btn
+{   
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+/* for the space between the btn and the search bar*/
+.blank{
+    padding:10px 0;
+}
+.submit-btn:hover , .lucky-btn:hover{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color:black;
+    transition: .2s linear;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px grey;
+}
+
+/* language offered by google*/
+#google-text {
+    justify-content: stretch;
+    padding-top: 30px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 28px;
+}
+#google-text a{
+    
+    padding: 0 3px;
+    text-decoration: none;
+    text-align: -webkit-center;
+    margin-bottom:24px;
+}
+
+/* the last bottom footer section */
+.footer{
+    color: darkgray;
+    font-family: arial,sans-serif;
+    margin-top:200px;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    display: block;
+
+}
+
+.location{
+    margin-left: 30px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    padding-left: 17px;
+    border-top: 1px solid #e4e4e4;
+    
+}
+.container {
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    line-height:35px;
+    color: rgba(0,0,0,.54);
+}
+.right,.left {
+    margin-left:30px;
+    background-color: #f2f2f2;
+}
+.right a{
+    color: rgba(0,0,0,.64);
+    padding-right:15px;
+    text-decoration: none;
+}
+.left a{
+    color: rgba(0,0,0,.64);
+    padding-left:15px;
+    text-decoration: none;
+}
+
